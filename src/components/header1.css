@@ -1,0 +1,21 @@
+.header{
+    background: #FBC998;
+    height: 30px;
+    
+}
+.horizontal-list {
+    display: flex;
+    justify-content: space-around; /* Adjust this to change spacing between items */
+    align-items: center; /* Vertically align items in the middle */
+  }
+  
+  .horizontal-list ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+  }
+  
+  .horizontal-list li {
+    margin: 0 10px; /* Adjust horizontal spacing between items */
+  }
+

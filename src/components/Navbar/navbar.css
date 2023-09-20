@@ -1,0 +1,21 @@
+.navbaritems{
+    height: 60px;
+}
+.image1{
+    height: 70px;
+    width: 150px;
+    margin-right: 85%;
+    display: flex;
+    justify-content: space-around; /* Adjust this to change spacing between items */
+    align-items: center;
+}
+.image2{
+    display: flex;
+    justify-content: space-around; /* Adjust this to change spacing between items */
+    align-items: center;
+}
+.image3{
+    display: flex;
+    justify-content: space-around; /* Adjust this to change spacing between items */
+    align-items: center;
+}

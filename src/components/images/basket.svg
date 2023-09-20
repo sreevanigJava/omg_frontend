@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="basket" transform="translate(-1.5 -1.5)">
+    <path id="Path_1" data-name="Path 1" d="M11.25,28.5h3v12h-3Z"/>
+    <path id="Path_2" data-name="Path 2" d="M18.75,28.5h3v12h-3Z"/>
+    <path id="Path_3" data-name="Path 3" d="M26.25,28.5h3v12h-3Z"/>
+    <path id="Path_4" data-name="Path 4" d="M33.75,28.5h3v12h-3Z"/>
+    <path id="Path_5" data-name="Path 5" d="M44.408,15.75,36.943,1.5H33.557l7.464,14.25H6.979L14.443,1.5H11.057L3.592,15.75H1.5V26.2L5.518,46.5H42.48L46.5,26.4V15.75ZM43.5,26.1,40.02,43.5H7.982L4.5,25.906V25.5h39Zm0-3.6H4.5V18.75h39Z"/>
+  </g>
+</svg>
