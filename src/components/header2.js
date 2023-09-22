@@ -4,11 +4,16 @@ import './header2.css';
 function Header2() {
     return (
       <header>
-       <nav className="header2">
-          <h1>abc</h1>
-            </nav >
-        
+       <div className="header2">
+          <ul className="navitems">
+            <li className="l"><a href="abc">Home</a></li>
+            <li className="l1"><a href="abc">categories</a></li>
+            <li className="l2"><a href="abc">fruits</a></li> 
+            <li className="l3">SearchResults</li>
+            </ul>
+            </div>
       </header>
+      
     );
   }
   export default Header2;

@@ -1,6 +1,6 @@
 import React from "react";
 import './header3.css'
-import fruits from './images/fruit.png'
+import fruits from './images/Apples-for-apples.png'
 
 function Header3() {
     return (

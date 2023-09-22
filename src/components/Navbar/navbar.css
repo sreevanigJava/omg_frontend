@@ -1,4 +1,4 @@
-.navbaritems{
+/* .navbaritems{
     height: 60px;
 }
 .image1{
@@ -6,16 +6,81 @@
     width: 150px;
     margin-right: 85%;
     display: flex;
-    justify-content: space-around; /* Adjust this to change spacing between items */
-    align-items: center;
+    justify-content: space-around; 
 }
 .image2{
     display: flex;
-    justify-content: space-around; /* Adjust this to change spacing between items */
+    justify-content: space-around; 
     align-items: center;
 }
 .image3{
     display: flex;
-    justify-content: space-around; /* Adjust this to change spacing between items */
+    justify-content: space-around; 
     align-items: center;
+} */
+.navbaritems{
+
+    height: 80px;
+    
+}
+.avtar{
+height: 30px;
+width: 30px;
+margin-left: 180px;
+
+}
+ .name{
+    margin-right: 400px;
+} 
+.image1{
+    height: 50px;
+
+    width: 170px;
+
+    margin-left: 107px;
+
+    margin-top: 10px;
+}
+.pipe{
+height: 1000px;
+width: 2000px;
+color: red;
+}
+.logo{
+    margin-right: 500px;
+}
+.image2{
+
+    margin-right: 170px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+.navContent
+{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+.searchBar{
+
+    width: 500px;
+
+    height: 28px;
+    margin-left: 50px;
+
+}
+#searchButtn{
+
+    width: 120px;
+
+    height: 34px;
+
+    background-color: rgb(244, 130, 59);
+
+    border-color: rgb(244, 130, 59);
+   
+
 }
