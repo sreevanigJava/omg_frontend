@@ -1,0 +1,96 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    background-color: white;
+    width: 200px;
+    height: 325px;
+    margin-left: 33px;
+    position: relative;
+    display: inline-flex;
+
+  }
+  .card img {
+    max-width: 150px;
+    height: 150px;
+  }
+  .card-content {
+     margin-top: -16px; 
+     position: relative;
+     margin-top: -17px;
+  }
+  .button1{
+    background-color: #98EB19;
+    margin-bottom: -20px;
+    margin-right: 140px;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    border-style: none;
+  }
+  .button2{
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    margin-right:10px;
+    border-style: none;
+  }
+  .div1{
+    text-align: left;
+    padding-bottom: -9px;
+    position: relative;
+  }
+  .div2{
+    text-align: left;
+    padding-top: 0px;
+    position: relative;
+  }
+  .addbutton{
+    background-color :rgb(241, 166, 27);
+    font-family: poppins;
+    width: 95px;
+    border-radius: 20px;
+    height: 35px;
+    font: bold;
+    color: whitesmoke;
+    background: linear-gradient(#fd6620, #f68827, #cf4100);
+    font-family: poppins;
+    border-style: none;
+    margin-left: 100px;
+   margin-bottom:-50px; 
+   margin-top: -40px;
+  }
+  .imgs{
+    margin-left: 30px;
+  }
+  #para1{
+    /* padding-right: 60px; */
+     text-decoration: line-through; 
+    /* margin-right: 100px;  */
+    text-align: left;
+  }
+  #para2
+  {
+    margin-top: -39px;
+    text-align: left;
+
+  }
+  #offer1{
+    margin-left: -161px;
+    margin-bottom: 1px;
+  width: 65px;
+  height: 32px;
+  background-color:#fd6620;
+  border-style: none;
+  color: whitesmoke;
+  border-radius: 5px 0px 12px 0px;
+  }
+  #name{
+    text-align: left;
+    margin-top: 10px;
+    font-style: oblique 10deg;
+    font-size: 18px;
+  }
+ 

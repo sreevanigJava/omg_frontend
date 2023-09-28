@@ -1,0 +1,198 @@
+
+.nav1{
+    height: 65px;
+    width: 100%;
+    position:relative;
+    display: flex;
+}
+.omglogo{
+  width: 180px;
+  height: 55px;
+  margin-left:70px;
+  margin-top: 5px;
+}
+.search{
+  padding-left: 110px;
+  margin-top: 15px;
+
+}
+.arrow{
+  margin-top: 20px;
+  margin-left: -70px;
+  font-size: large;
+}
+#searchbutton{
+  width: 120px;
+  height: 36.5px;
+  margin-left: 0px;
+  background-color: #fd6620;
+  font-size: 15px;
+  padding-top: 0px;
+  border-radius: 0px 5px 5px 0px;
+  border-style: none;
+}
+.searchimg{
+  position: absolute;
+  left:-30px;
+  flex: 1;
+  padding: 8px;
+  /* background-image: url('images/search_duoline.svg');  */
+  background-repeat: no-repeat;
+  background-position: 10px center; /* Adjust the position as needed */
+  padding-left: 62px; /* Ensure enough space for the search image */
+  border: none; /* Remove input border if needed */
+  outline: none; /* Remove input outline if needed */
+  height: 23px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#searchbutton {
+  margin-right: 20px;
+}
+.searching{
+  height: 31px;
+  width: 550px;
+margin-left: 20px;
+}
+.namelogo{
+  position: relative;
+  margin-right: 50px;
+}
+.img1{
+  width: 32px;
+  margin-left: 120px;
+  margin-top: 15px;
+  display: inline-flex;
+}
+.name{
+  margin-top:-33px;
+  margin-left:330px;
+  padding-right:25px;
+  font-size: large;
+} 
+#basket{
+  margin-left: 100px;
+  height: 27px;
+  margin-top: 22px;
+}
+.quantity{
+  background-color: red;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  width: 23px;
+  margin-left:-24px;
+  margin-top: 5PX;
+  color: #fff
+  }
+
+/* nav2 */
+.nav2 {
+  background-color: #fbc998;
+  width: 100%;
+  height: 35px;
+  margin-top: 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.details {
+  position: relative;
+  display: flex;
+  list-style-type: none;
+  margin-left: 30px;
+ 
+}
+.details a {
+  text-decoration: none;
+  margin-right: 50px; 
+}
+.details li{
+  margin-top: 4px;
+
+}
+.icon{
+  font-size: large;
+  padding-left: -26px;
+  margin-left: -45px;
+}
+.location {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 900px;
+}
+.location li{
+  text-decoration: none;
+  margin-right:10px; 
+  margin-top: 4px;
+}
+#change{
+  margin-left: 15px;
+  color:  #fd6620;
+}
+.a1 {
+  text-decoration: none;
+  font-weight: 600;
+}
+.a2{
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* nav3 */
+
+.nav3{
+  display: flex;
+  list-style-type: none;
+  height: 38px;
+  margin-bottom: -16px;
+  margin-top: -9px;
+  width: 1920px;
+  padding-left: 55px;
+  margin-left: -85px;
+}
+.nav3 li{
+  margin-right: 17px;
+  color: #053472;
+}
+.l1{
+  margin-left: 70px;
+}
+.anchor{
+  text-decoration: none;
+}
+.btn{
+  width: 110px;
+  height: 30px;
+  color: whitesmoke;
+  background-color: #919191;
+  border-style: none;
+  border-radius: 5px;
+}
+.greater-than-icon {
+  font-size: 24px;
+  padding-bottom: 40px;
+  margin-top: -7px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.Navigationbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white; /* You can adjust the background color as needed */
+  z-index: 100; 
+}
+.details li:nth-child(1)
+{
+  padding-left: 10px;
+}
+.fontIcon{
+  color: gray;
+}
