@@ -12,40 +12,17 @@ function Cards() {
       setLoading(false)
       console.log(response.data); // Log the response data
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error('Error fetching data:', error); 
     }
   };
   useEffect(() => {
 
     fetchData();
   }, []);
+
   return (
     <div className='Abc'>
-      {/*
-        loading?(<p>Loading....</p>):(
-          <div>
-            {data.map((product, index)=>(
-              <li key={index}>
-                <h5>Product Id: {product.prodId}</h5>
-              </li>
-            ))}
-         </div>
-        //   <div className="card" key={index}>
-        //   <div className="card-content">
-        //   <div className="offer">
-        //   <button id='offer1' >25%off</button>
-        //   </div>
-        //   <img className="imgs" src={item.image} alt={`Image ${index}`} />
-        //   <h6 id="name">{item.name}</h6>
-        //   <button className="button1">1kg</button>
-        //   <button className="button2">500gm</button>
-        //   <p id="para1">Rs100.00 </p>
-        //   <button className="addbutton">ADD</button>
-        //   <p id="para2">Rs70.00</p>
-        // </div>
-        // </div>
-        )
-      */
+      {
         loading ? (<p>Loading....</p>) : (
 
           <div >
@@ -53,15 +30,15 @@ function Cards() {
               <div className="card">
                 <div className="card-content">
                 <div className="offer">
-                <button id='offer1'>25%off</button>
+                <button id='offer1'>{product.offer}%Off</button>
                 </div>
                   <img className="imgs" src={product.imageUrl} alt={`Image ${index}`} />
                   <h4 id="name">{product.prodName}</h4>
                   <button className="button1">{product.qty} {product.unit}</button>
-                  <p id="para1">Price:{product.price}</p>
+                  <p id="para1">₹ {product.actualPrice}</p>
                   <button className="addbutton">ADD</button>
-                  <p id="para2">Rs70.00</p>
-                </div>
+                  <p id="para2">₹ {product.purchasePrice}</p>
+                </div>      
               </div>
             ))
 

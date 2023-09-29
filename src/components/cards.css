@@ -86,7 +86,10 @@
   border-style: none;
   color: whitesmoke;
   border-radius: 5px 0px 12px 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
   }
+  
   #name{
     text-align: left;
     margin-top: 10px;
